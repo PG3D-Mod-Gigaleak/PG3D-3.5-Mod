@@ -1,0 +1,357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!94 &1
+ScriptMapper:
+  m_ObjectHideFlags: 0
+  m_Shaders:
+    m_ObjectToName:
+    - first: {fileID: 4800000, guid: 7fb2e8a0e1ca1e745af173c3fbc284ce, type: 3}
+      second: Mobile/Transparent/Vertex Color
+    - first: {fileID: 4800000, guid: 1df1fde2549da3942af7a8541356259b, type: 3}
+      second: Hidden/GlowConeTap
+    - first: {fileID: 4800000, guid: 556c1c5604d9d204ebb593820f8a1dc7, type: 3}
+      second: Decal/Transparent VertexLit
+    - first: {fileID: 4800000, guid: a55632cc2b6ed35459875a18c89f912e, type: 3}
+      second: Hidden/SunShaftsComposite
+    - first: {fileID: 4800000, guid: 2b61c7d4c4e8a2349a5f0f051d458b9d, type: 3}
+      second: MobileWater/MobileWater
+    - first: {fileID: 4800000, guid: 54e9d2914bb5c3041bd19dc2eec738e8, type: 3}
+      second: Mobile/Diffuse Detail
+    - first: {fileID: 4800000, guid: 8742e3010b9c0e548bec19f894919bbe, type: 3}
+      second: Hidden/GlowCompose
+    - first: {fileID: 4800000, guid: 7bc0608e0020578469cc325475cb7571, type: 3}
+      second: Decal/Cutout VertexLit
+    - first: {fileID: 4800000, guid: 7e1bb7e78399b944da842ea0a062b081, type: 3}
+      second: ' Vertex Lit Colored'
+    - first: {fileID: 4800000, guid: 1d6de111c9430ea479848ea1abc71b29, type: 3}
+      second: Decal/Mobile/Transparent Diffuse
+    - first: {fileID: 4800000, guid: 33a8667876da2b14699c58c524b79a77, type: 3}
+      second: Hidden/Glow Downsample
+    - first: {fileID: 4800000, guid: 9dd8b52f88928e548a863e20934b88a6, type: 3}
+      second: Decal/Mobile/Cutout Diffuse
+    - first: {fileID: 4800000, guid: defaa78b1f2d9b740a2797dc495e6200, type: 3}
+      second: Hidden/SimpleClear
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: VertexLit
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Legacy Shaders/Diffuse Fast
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Bumped Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Bumped Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Diffuse Detail
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Self-Illumin/VertexLit
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Self-Illumin/Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Self-Illumin/Bumped Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Self-Illumin/Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Self-Illumin/Bumped Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Reflective/VertexLit
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Reflective/Bumped Unlit
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Reflective/Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Reflective/Bumped Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Reflective/Bumped VertexLit
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Reflective/Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Reflective/Bumped Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/VertexLit
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Bumped Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Bumped Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Cutout/VertexLit
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Cutout/Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Cutout/Bumped Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Cutout/Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Cutout/Bumped Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Parallax Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Parallax Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Self-Illumin/Parallax Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Self-Illumin/Parallax Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Reflective/Parallax Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Reflective/Parallax Specular
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Parallax Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Parallax Specular
+    - first: {fileID: 60, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Shadow-ScreenBlur
+    - first: {fileID: 61, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Camera-DepthTexture
+    - first: {fileID: 62, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Camera-DepthNormalTexture
+    - first: {fileID: 63, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Internal-PrePassLighting
+    - first: {fileID: 64, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Internal-PrePassCollectShadows
+    - first: {fileID: 65, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Internal-CombineDepthNormals
+    - first: {fileID: 66, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/BlitCopy
+    - first: {fileID: 67, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/Shadow-ScreenBlurRotated
+    - first: {fileID: 68, guid: 0000000000000000e000000000000000, type: 0}
+      second: Hidden/InternalClear
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Decal
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: FX/Flare
+    - first: {fileID: 102, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-Flare
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: RenderFX/Skybox Cubed
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: RenderFX/Skybox
+    - first: {fileID: 105, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-Halo
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Particles/Additive
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Particles/~Additive-Multiply
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Particles/Additive (Soft)
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Particles/Alpha Blended
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Particles/Multiply
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Particles/Multiply (Double)
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Particles/Alpha Blended Premultiply
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Particles/VertexLit Blended
+    - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureClip
+    - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureClipText
+    - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITexture
+    - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+      second: Hidden/Internal-GUITextureBlit
+    - first: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+      second: GUI/Text Shader
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Hidden/TerrainEngine/Details/Vertexlit
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Hidden/TerrainEngine/Details/WavingDoublePass
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Hidden/TerrainEngine/Details/BillboardWavingDoublePass
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Nature/Terrain/Diffuse
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Hidden/TerrainEngine/Splatmap/Lightmap-AddPass
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Hidden/TerrainEngine/BillboardTree
+    - first: {fileID: 4800000, guid: 0000000deadbeef15deadf00d0000000, type: 3}
+      second: Transparent/Cutout/Soft Edge Unlit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Specular
+    - first: {fileID: 0}
+      second: Legacy Shaders/Lightmapped/Bumped Specular
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Soft Occlusion Bark Rendertex
+    - first: {fileID: 0}
+      second: Nature/Tree Soft Occlusion Bark
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Soft Occlusion Leaves Rendertex
+    - first: {fileID: 0}
+      second: Nature/Tree Soft Occlusion Leaves
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Bark
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Leaves
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Bark Rendertex
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Rendertex
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Bark Optimized
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Optimized
+    - first: {fileID: 0}
+      second: Nature/Tree Creator Leaves Fast
+    - first: {fileID: 0}
+      second: Hidden/Nature/Tree Creator Leaves Fast Optimized
+    - first: {fileID: 0}
+      second: Nature/Terrain/Bumped Specular
+    - first: {fileID: 0}
+      second: Hidden/Nature/Terrain/Bumped Specular AddPass
+    - first: {fileID: 0}
+      second: Mobile/Skybox
+    - first: {fileID: 10701, guid: 0000000000000000f000000000000000, type: 0}
+      second: Mobile/VertexLit
+    - first: {fileID: 10703, guid: 0000000000000000f000000000000000, type: 0}
+      second: Mobile/Diffuse
+    - first: {fileID: 0}
+      second: Mobile/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Mobile/Bumped Specular
+    - first: {fileID: 0}
+      second: Mobile/Bumped Specular (1 Directional Light)
+    - first: {fileID: 0}
+      second: Mobile/VertexLit (Only Directional Lights)
+    - first: {fileID: 0}
+      second: Mobile/Unlit (Supports Lightmap)
+    - first: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+      second: Mobile/Particles/Additive
+    - first: {fileID: 10721, guid: 0000000000000000f000000000000000, type: 0}
+      second: Mobile/Particles/Alpha Blended
+    - first: {fileID: 0}
+      second: Mobile/Particles/VertexLit Blended
+    - first: {fileID: 0}
+      second: Mobile/Particles/Multiply
+    - first: {fileID: 0}
+      second: Unlit/Transparent
+    - first: {fileID: 0}
+      second: Unlit/Transparent Cutout
+    - first: {fileID: 0}
+      second: Unlit/Texture
+    - first: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+      second: VertexLit
+    - first: {fileID: 0}
+      second: Legacy Shaders/Diffuse Fast
+    - first: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+      second: Diffuse
+    - first: {fileID: 0}
+      second: Bumped Diffuse
+    - first: {fileID: 0}
+      second: Specular
+    - first: {fileID: 0}
+      second: Bumped Specular
+    - first: {fileID: 0}
+      second: Diffuse Detail
+    - first: {fileID: 14, guid: 0000000000000000f000000000000000, type: 0}
+      second: Self-Illumin/VertexLit
+    - first: {fileID: 10, guid: 0000000000000000f000000000000000, type: 0}
+      second: Self-Illumin/Diffuse
+    - first: {fileID: 0}
+      second: Self-Illumin/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Self-Illumin/Specular
+    - first: {fileID: 0}
+      second: Self-Illumin/Bumped Specular
+    - first: {fileID: 0}
+      second: Reflective/VertexLit
+    - first: {fileID: 0}
+      second: Reflective/Bumped Unlit
+    - first: {fileID: 0}
+      second: Reflective/Diffuse
+    - first: {fileID: 0}
+      second: Reflective/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Reflective/Bumped VertexLit
+    - first: {fileID: 0}
+      second: Reflective/Specular
+    - first: {fileID: 0}
+      second: Reflective/Bumped Specular
+    - first: {fileID: 0}
+      second: Transparent/VertexLit
+    - first: {fileID: 0}
+      second: Transparent/Diffuse
+    - first: {fileID: 0}
+      second: Transparent/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Transparent/Specular
+    - first: {fileID: 0}
+      second: Transparent/Bumped Specular
+    - first: {fileID: 0}
+      second: Transparent/Cutout/VertexLit
+    - first: {fileID: 0}
+      second: Transparent/Cutout/Diffuse
+    - first: {fileID: 0}
+      second: Transparent/Cutout/Bumped Diffuse
+    - first: {fileID: 0}
+      second: Transparent/Cutout/Specular
+    - first: {fileID: 0}
+      second: Transparent/Cutout/Bumped Specular
+    - first: {fileID: 0}
+      second: Parallax Diffuse
+    - first: {fileID: 0}
+      second: Parallax Specular
+    - first: {fileID: 0}
+      second: Self-Illumin/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Self-Illumin/Parallax Specular
+    - first: {fileID: 0}
+      second: Reflective/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Reflective/Parallax Specular
+    - first: {fileID: 0}
+      second: Transparent/Parallax Diffuse
+    - first: {fileID: 0}
+      second: Transparent/Parallax Specular
+    - first: {fileID: 0}
+      second: Decal
+    - first: {fileID: 0}
+      second: FX/Flare
+    - first: {fileID: 0}
+      second: RenderFX/Skybox Cubed
+    - first: {fileID: 104, guid: 0000000000000000f000000000000000, type: 0}
+      second: RenderFX/Skybox
+    - first: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+      second: Particles/Additive
+    - first: {fileID: 0}
+      second: Particles/~Additive-Multiply
+    - first: {fileID: 0}
+      second: Particles/Additive (Soft)
+    - first: {fileID: 0}
+      second: Particles/Alpha Blended
+    - first: {fileID: 0}
+      second: Particles/Multiply
+    - first: {fileID: 0}
+      second: Particles/Multiply (Double)
+    - first: {fileID: 0}
+      second: Particles/Alpha Blended Premultiply
+    - first: {fileID: 0}
+      second: Particles/VertexLit Blended
+    - first: {fileID: 0}
+      second: Transparent/Cutout/Soft Edge Unlit
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/Vertexlit
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/WavingDoublePass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Details/BillboardWavingDoublePass
+    - first: {fileID: 0}
+      second: Nature/Terrain/Diffuse
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/Splatmap/Lightmap-AddPass
+    - first: {fileID: 0}
+      second: Hidden/TerrainEngine/BillboardTree

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FirstPersonControl
+  - Enemy
+  - ViewTrigger
+  - ZombPolz
+  - PlayerGun
+  - Joystick
+  - Skull
+  - Portal
+  - InAppGameObject
+  - Bot
+  - SkinsManager
+  - EnemyCreationZone
+  - BonusCreationZone
+  - FirstShotgun
+  - FirstUzi
+  - FirstPistol
+  - PistolRotate
+  - WeaponManager
+  - UziWeapon
+  - Colt45Weapon
+  - M249MachinegunWeapon
+  - MinersWeapon
+  - CoinBonus
+  - Arms
+  - Configurator
+  - AndroidInappManager
+  - CrystalSword
+  - m16
+  - AK47
+  - NetworkTable
+  - CamTemp
+  - nickText
+  - MultyPlayerCreateZone
+  - ActivityIndicator
+  - ObjectLabel
+  - Bonus
+  - Knife
+  - Bow
+  - Eagle 1
+  - CoinsShop
+  - GoldenAxe
+  - Flurry
+  - Chainsaw
+  - SPAS
+  - CameraWithEffects
+  - GUIHelper
+  - Glock
+  - FAMAS
+  - Bullet
+  - ZombiCreator
+  - Scythe
+  - Shovel
+  - OGUzi
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Z
+  - Gun
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
