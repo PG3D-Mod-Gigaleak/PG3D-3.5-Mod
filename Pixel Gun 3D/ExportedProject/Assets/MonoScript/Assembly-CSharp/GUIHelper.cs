@@ -15,6 +15,10 @@ public class GUIHelper : MonoBehaviour
 		GUI.Box(position, "Loading", instance.loadingStyle);
 	}
 
+	private void Update()
+	{
+	}
+
 	private void Start()
 	{
 		Object.DontDestroyOnLoad(base.gameObject);

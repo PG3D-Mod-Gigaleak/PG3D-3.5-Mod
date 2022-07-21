@@ -206,7 +206,7 @@ public class BonusCreator : MonoBehaviour
 				}
 			}
 			while (weaponNumber == _lastWeapon || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.PickWeaponName) || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.SwordWeaponName) || weaponPrefabs[weaponNumber].name.Equals("Weapon9") || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.CombatRifleWeaponName) || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.GoldenEagleWeaponName) || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.MagicBowWeaponName) || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.SpasWeaponName) || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.GoldenAxeWeaponnName) || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.ChainsawWN) || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.FAMASWN) || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.GlockWN) || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.ScytheWN) || weaponPrefabs[weaponNumber].name.Equals(WeaponManager.ShovelWN));
-			GameObject wp = weapons3[weaponNumber - 1] as GameObject;
+			GameObject wp = weapons3[weaponNumber] as GameObject;
 			wp.transform.rotation = Quaternion.identity;
 			WeaponSounds ws = wp.GetComponent<WeaponSounds>();
 			GameObject bonus = ws.bonusPrefab;

@@ -577,7 +577,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   spreadCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -589,7 +589,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -601,7 +601,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
 --- !u!111 &111483677095475755
 Animation:
   m_ObjectHideFlags: 0
@@ -645,10 +645,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0773f786163cb244dbd4a531847c41fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hurt: {fileID: 8300000, guid: d87903c8a94703346a508966eda3f9a7, type: 3}
+  hurt: {fileID: 8300000, guid: 7d86051f262a1ab439e8bd10fbf73dcb, type: 3}
   voice: {fileID: 0}
   bite: {fileID: 8300000, guid: 5fce7e3e39d7cd840a84ca5aaf7ac82a, type: 3}
-  death: {fileID: 8300000, guid: 665076bba30d5b340a24cdda71b1ee97, type: 3}
+  death: {fileID: 8300000, guid: 7c639323f43ec8046b3aa6eee61ac2ef, type: 3}
   notAttackingSpeed: 1
   attackingSpeed: 3
   health: 220

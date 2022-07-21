@@ -498,6 +498,10 @@ public class Defs
 		mapNamesForUser.Add("Jail", "Prison");
 		mapNamesForUser.Add("Hospital", "Hospital");
 		mapNamesForUser.Add("Pool", "Pool");
+		mapNamesForUser.Add("Assault", "Warehouse Assault");
+		mapNamesForUser.Add("Level3_city", "2.1 City");
+		mapNamesForUser.Add("Level2_maze", "2.1 Desert");
+		mapNamesForUser.Add("Level3_city25", "2.5 City");
 		mapNamesForUser.Add("Slender", "Forest");
 		mapNamesForUser.Add("Castle", "Hell");
 		mapNamesForUser.Add("Ranch", "Shooting Range");
@@ -515,6 +519,10 @@ public class Defs
 		levelNumsForMusicInMult.Add("Jail", 5);
 		levelNumsForMusicInMult.Add("Hospital", 4);
 		levelNumsForMusicInMult.Add("Pool", 1001);
+		levelNumsForMusicInMult.Add("Assault", 4003);
+		levelNumsForMusicInMult.Add("Level3_city", 4004);
+		levelNumsForMusicInMult.Add("Level2_maze", 4005);
+		levelNumsForMusicInMult.Add("Level3_city25", 4006);
 		levelNumsForMusicInMult.Add("Slender", 10);
 		levelNumsForMusicInMult.Add("Castle", 1002);
 		levelNumsForMusicInMult.Add("Ranch", 1003);

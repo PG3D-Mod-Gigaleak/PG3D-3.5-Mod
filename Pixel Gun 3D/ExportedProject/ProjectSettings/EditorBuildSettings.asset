@@ -89,3 +89,15 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scene/Sour\u0441e/Scenes/Utopia.unity"
     guid: e4448e298d48663479e84a197a0d3e8f
+  - enabled: 1
+    path: Assets/export/39/scene/Assault.unity
+    guid: 851b6a1e344058049b441f1afcb507ce
+  - enabled: 1
+    path: Assets/export/21/scenes/Level3_city.unity
+    guid: 330decea72b34dc449229bbae5706a27
+  - enabled: 1
+    path: Assets/export/21/scenes/Level2_maze.unity
+    guid: 80476ee0f70db064cb08e429fd5e5d19
+  - enabled: 1
+    path: Assets/export/25/scene/Level3_city25.unity
+    guid: 2cea37c0f700f394cb4cdce2001e466d

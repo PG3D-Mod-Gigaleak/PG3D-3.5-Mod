@@ -759,6 +759,26 @@ public class NetworkStartTable : MonoBehaviour
 				position = new Vector3(-17.36495f, 5.448204f, -5.605346f);
 				rotation = Quaternion.Euler(new Vector3(31.34471f, 31.34471f, 0.2499542f));
 			}
+			if (PlayerPrefs.GetString("MapName").Equals("Assault"))
+			{
+				position = new Vector3(19.36158f, 19.61019f, -24.24763f);
+				rotation = Quaternion.Euler(new Vector3(35.9299f, -11.80757f, -1.581451f));
+			}
+			if (PlayerPrefs.GetString("MapName").Equals("Level3_city"))
+			{
+				position = new Vector3(19.36158f, 19.61019f, -24.24763f);
+				rotation = Quaternion.Euler(new Vector3(35.9299f, -11.80757f, -1.581451f));
+			}
+			if (PlayerPrefs.GetString("MapName").Equals("Level2_maze"))
+			{
+				position = new Vector3(19.36158f, 19.61019f, -24.24763f);
+				rotation = Quaternion.Euler(new Vector3(35.9299f, -11.80757f, -1.581451f));
+			}
+			if (PlayerPrefs.GetString("MapName").Equals("Level3_city25"))
+			{
+				position = new Vector3(19.36158f, 19.61019f, -24.24763f);
+				rotation = Quaternion.Euler(new Vector3(35.9299f, -11.80757f, -1.581451f));
+			}
 			if (PlayerPrefs.GetString("MapName").Equals("Slender"))
 			{
 				position = new Vector3(31.82355f, 5.959687f, 37.378f);

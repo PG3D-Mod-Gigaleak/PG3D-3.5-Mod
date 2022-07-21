@@ -57,6 +57,8 @@ TagManager:
   - Scythe
   - Shovel
   - OGUzi
+  - MultyPlayerCreateZoneCOOP
+  - MenuMusic
   layers:
   - Default
   - TransparentFX
