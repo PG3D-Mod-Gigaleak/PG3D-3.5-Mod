@@ -278,10 +278,10 @@ public class SpisokSkinov : MonoBehaviour
 			GUI.depth = -4;
 			flag = true;
 			Rect position = new Rect((float)Screen.width / 2f - (float)restoreWindowTexture.width * 0.5f * Defs.Coef, (float)Screen.height / 2f - (float)restoreWindowTexture.height * 0.5f * Defs.Coef, (float)restoreWindowTexture.width * Defs.Coef, (float)restoreWindowTexture.height * Defs.Coef);
-			GUI.DrawTexture(position, restoreWindowTexture);
+			//GUI.DrawTexture(position, restoreWindowTexture);
 			float num = (float)Screen.width / 20f;
 			float num2 = 0.15f;
-			if (GUI.Button(new Rect((float)Screen.width / 2f + num, (float)Screen.height / 2f + (float)restoreWindowTexture.height * num2 * Defs.Coef, (float)restoreWindButStyle.normal.background.width * Defs.Coef, (float)restoreWindButStyle.normal.background.height * Defs.Coef), string.Empty, restoreWindButStyle))
+			/*if (GUI.Button(new Rect((float)Screen.width / 2f + num, (float)Screen.height / 2f + (float)restoreWindowTexture.height * num2 * Defs.Coef, (float)restoreWindButStyle.normal.background.width * Defs.Coef, (float)restoreWindButStyle.normal.background.height * Defs.Coef), string.Empty, restoreWindButStyle))
 			{
 				_003COnGUI_003Ec__AnonStorey17 _003COnGUI_003Ec__AnonStorey = new _003COnGUI_003Ec__AnonStorey17();
 				_003COnGUI_003Ec__AnonStorey.restoreSucceeded = null;
@@ -302,7 +302,7 @@ public class SpisokSkinov : MonoBehaviour
 				PlayerPrefs.SetInt(Defs.restoreWindowShownProfile, 1);
 				mainController.previewControl.Locked = false;
 				return;
-			}
+			}*/
 			mainController.previewControl.Locked = true;
 			GUI.enabled = false;
 		}

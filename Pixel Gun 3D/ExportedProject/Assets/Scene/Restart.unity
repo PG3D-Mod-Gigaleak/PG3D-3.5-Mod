@@ -633,7 +633,7 @@ MonoBehaviour:
     m_StretchHeight: 0
   isFirstFrame: 1
   isInappWinOpen: 0
-  fon: {fileID: 2800000, guid: fdf86400aef28c84ca9bd7e4c97ca166, type: 3}
+  fon: {fileID: 2800000, guid: 9f70cc6da1650d44eabe83371fcf83ae, type: 3}
   plashkaPodScore: {fileID: 2800000, guid: 4aed58ed00f885c42a2f157296b6a111, type: 3}
   playMultyStyleNO: {fileID: 2800000, guid: d3eb22b3a729c054bb39695ca50b6b86, type: 3}
   fonFull: {fileID: 2800000, guid: 9ecd845e05426d546bebc9d6374668b1, type: 3}
@@ -1577,6 +1577,7 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
+  iswinter: 0
 --- !u!1001 &2042760826
 Prefab:
   m_ObjectHideFlags: 0
@@ -1586,15 +1587,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4115147613256982, guid: e8b88db0de3813f4c83bc1d9d7305d92, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.027
+      value: 0.037
       objectReference: {fileID: 0}
     - target: {fileID: 4115147613256982, guid: e8b88db0de3813f4c83bc1d9d7305d92, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.944
+      value: 0.942
       objectReference: {fileID: 0}
     - target: {fileID: 4115147613256982, guid: e8b88db0de3813f4c83bc1d9d7305d92, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.057
+      value: -10.066
       objectReference: {fileID: 0}
     - target: {fileID: 4115147613256982, guid: e8b88db0de3813f4c83bc1d9d7305d92, type: 2}
       propertyPath: m_LocalRotation.x
@@ -1615,6 +1616,11 @@ Prefab:
     - target: {fileID: 4115147613256982, guid: e8b88db0de3813f4c83bc1d9d7305d92, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82031905093521656, guid: e8b88db0de3813f4c83bc1d9d7305d92,
+        type: 2}
+      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e8b88db0de3813f4c83bc1d9d7305d92, type: 2}

@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 23145878466685289}
   m_Layer: 0
   m_Name: PLAYER_Foot_right
-  m_TagString: Untagged
+  m_TagString: changeme
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 111392054803920817}
   m_Layer: 0
   m_Name: FPS_Player
-  m_TagString: Untagged
+  m_TagString: changeme
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 23366814201276774}
   m_Layer: 0
   m_Name: PLAYER_Head
-  m_TagString: Untagged
+  m_TagString: changeme
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 23081888073008222}
   m_Layer: 0
   m_Name: PLAYER_Body
-  m_TagString: Untagged
+  m_TagString: changeme
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 23820607172736098}
   m_Layer: 0
   m_Name: PLAYER_Foot_left
-  m_TagString: Untagged
+  m_TagString: changeme
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 4254975415818050}
   m_Layer: 0
   m_Name: FPS_Player 1
-  m_TagString: Untagged
+  m_TagString: changeme
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1374,7 +1374,7 @@ MonoBehaviour:
   scytheOffTexture: {fileID: 2800000, guid: 654199723e0d0ab4e9d0c69edd4ccc06, type: 3}
   shovelOffTexture: {fileID: 2800000, guid: 186e548b22660e8409f1b72d306119d1, type: 3}
   elixir: {fileID: 2800000, guid: 4b5c69106a6f4aa408fb62f5502134fb, type: 3}
-  multiplayerInappFon: {fileID: 0}
+  multiplayerInappFon: {fileID: 2800000, guid: b891197525aa8cf44a08ff781f36d512, type: 3}
   ranksFon: {fileID: 2800000, guid: 0c5deb0149e7dd14bb6b877ddd9e0831, type: 3}
   killedSpisok:
   - 
@@ -2390,7 +2390,7 @@ MonoBehaviour:
   theEnd: 0
   nickPobeditel: 
   hitTexture: {fileID: 2800000, guid: 659a500e70f0c5e49959d320e6d9da9a, type: 3}
-  _skin: {fileID: 0}
+  _skin: {fileID: 2800000, guid: b891197525aa8cf44a08ff781f36d512, type: 3}
   showNoInetTimer: 2
   countKills: 0
   maxCountKills: 0
@@ -2733,7 +2733,7 @@ MonoBehaviour:
       m_Right: 0
       m_Top: 0
       m_Bottom: 0
-    m_Font: {fileID: 0}
+    m_Font: {fileID: 12800000, guid: 2d9f3be2843fcb54fafe74f0b1731cd1, type: 3}
     m_FontSize: 0
     m_FontStyle: 0
     m_Alignment: 4
@@ -3488,8 +3488,6 @@ MonoBehaviour:
     m_StretchHeight: 0
   pauseFon: {fileID: 2800000, guid: 3283a34b4a079474184bb0268d228291, type: 3}
   pauseTitle: {fileID: 2800000, guid: 3c15efde434f76541ae8a523ab1232dc, type: 3}
-  bulletPrefab: {fileID: 1187001069931535, guid: 70ff3a06e5b39ef4995887e38b7f6f8d,
-    type: 2}
   _purchaseActivityIndicator: {fileID: 0}
   _listener: {fileID: 0}
   puliInApp:

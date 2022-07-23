@@ -587,7 +587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shoot: {fileID: 8300000, guid: c48c2fc8b5207904dbdb4385de1861f9, type: 3}
   reload: {fileID: 8300000, guid: be788a9e04076af44b0a85f85e1cd8c0, type: 3}
-  empty: {fileID: 8300000, guid: 11c9431508036f2448902ad139fa4b13, type: 2}
+  empty: {fileID: 8300000, guid: 33c0f09106fb2d24dabbf977c4b6d67a, type: 3}
   isSerialShooting: 1
   bonusPrefab: {fileID: 1629000269615941}
   InitialAmmo: 14
@@ -596,7 +596,7 @@ MonoBehaviour:
   isMelee: 0
   range: 3
   damage: 100
-  speedModifier: 1
+  speedModifier: 1.1
   animationObject: {fileID: 1950790012893297}
   Probability: 30
   damageRange: {x: -15, y: 15}
@@ -604,7 +604,7 @@ MonoBehaviour:
   preview: {fileID: 2800000, guid: faf9905a14b5b6b448dd410d06e9a5c6, type: 3}
   inAppExtensionModifier: 10
   meleeAngle: 45
-  multiplayerDamage: 1.5
+  multiplayerDamage: 2
   meleeAttackTimeModifier: 0.57
 --- !u!148 &148119294809287280
 NetworkView:

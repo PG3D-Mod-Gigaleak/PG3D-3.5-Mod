@@ -449,14 +449,14 @@ public class ConnectGUI : MonoBehaviour
 	{		if (!Application.isMobilePlatform)
 		{
 			float scroll = Input.GetAxis("Mouse ScrollWheel");
-				if (scroll > 0f)
-				{
-					selectMapIndex--;
-				}
-				else if (scroll < 0f)
-				{
-					selectMapIndex++;
-				}
+			if (scroll > 0f)
+			{
+				selectMapIndex--;
+			}
+			else if (scroll < 0f)
+			{
+				selectMapIndex++;
+			}
 		}
 		slideScroll();
 		if (typeConnect == 1 && PhotonNetwork.connectionState == ConnectionState.Disconnected)

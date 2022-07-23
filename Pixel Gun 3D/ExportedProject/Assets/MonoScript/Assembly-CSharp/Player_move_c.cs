@@ -383,7 +383,9 @@ public class Player_move_c : MonoBehaviour
 
 	private GameObject _player;
 
-	public GameObject bulletPrefab;
+	private GameObject bulletPrefab;
+
+	private GameObject RedstoneBulletPrefab;
 
 	private GameObject _bulletSpawnPoint;
 
@@ -1116,7 +1118,7 @@ public class Player_move_c : MonoBehaviour
 	{
 		if (!_weaponManager.currentWeaponSounds.isMelee && GunFlash != null)
 		{
-//			GunFlash.active = state;
+			GunFlash.gameObject.SetActive(state);
 		}
 	}
 
@@ -1605,7 +1607,16 @@ public class Player_move_c : MonoBehaviour
 	public void shootS()
 	{
 		if (!_weaponManager.currentWeaponSounds.isMelee)
-		{
+		{	
+			//troubleshooting: IF WEAPONS DONT WANT TO SHOOT, REVERT THIS CHANGE BY REMOVING LINE 1612 TO 1619 AND CHANGING BULLETPREFAB TO PUBLIC AND ASSIGNING IT IN THE INSPECTOR!
+			if (!_weaponManager.currentWeaponSounds.isRedstone)
+			{
+				bulletPrefab = Resources.Load("Bullet") as GameObject;
+			}
+			if (_weaponManager.currentWeaponSounds.isRedstone)
+			{
+				bulletPrefab = Resources.Load("Bullet_Redstone") as GameObject;
+			}
 			GameObject gameObject = ((PlayerPrefs.GetInt("MultyPlayer") != 1) ? ((GameObject)UnityEngine.Object.Instantiate(bulletPrefab, _bulletSpawnPoint.transform.position, Quaternion.LookRotation(Camera.main.transform.TransformDirection(Vector3.forward)))) : ((!PlayerPrefs.GetString("TypeConnect").Equals("inet")) ? ((GameObject)Network.Instantiate(bulletPrefab, _bulletSpawnPoint.transform.position, Quaternion.LookRotation(Camera.main.transform.TransformDirection(Vector3.forward)), 0)) : PhotonNetwork.Instantiate(bulletPrefab.name, _bulletSpawnPoint.transform.position, Quaternion.LookRotation(Camera.main.transform.TransformDirection(Vector3.forward)), 0)));
 			if (PlayerPrefs.GetInt("MultyPlayer") == 1)
 			{

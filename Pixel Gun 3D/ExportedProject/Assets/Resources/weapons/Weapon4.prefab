@@ -633,7 +633,7 @@ MonoBehaviour:
   synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  instantiationId: 0
+  instantiationId: -1
 --- !u!114 &114320140205332299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -668,7 +668,7 @@ MonoBehaviour:
   isMelee: 0
   range: 3
   damage: 120
-  speedModifier: 1
+  speedModifier: 1.1
   animationObject: {fileID: 1536867143033546}
   Probability: 20
   damageRange: {x: -15, y: 15}
@@ -676,7 +676,7 @@ MonoBehaviour:
   preview: {fileID: 2800000, guid: 2803995b7dd16224dba61acebab303e3, type: 3}
   inAppExtensionModifier: 10
   meleeAngle: 45
-  multiplayerDamage: 1
+  multiplayerDamage: 1.5
   meleeAttackTimeModifier: 0.57
 --- !u!148 &148486147043844064
 NetworkView:

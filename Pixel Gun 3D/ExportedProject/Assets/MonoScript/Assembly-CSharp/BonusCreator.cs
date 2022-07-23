@@ -15,7 +15,7 @@ public class BonusCreator : MonoBehaviour
 
 	private bool _isMultiplayer;
 
-	public UnityEngine.Object[] weapons3 = new UnityEngine.Object[19];
+	public UnityEngine.Object[] weapons3 = new UnityEngine.Object[24];
 
 	private ArrayList bonuses = new ArrayList();
 
@@ -39,11 +39,11 @@ public class BonusCreator : MonoBehaviour
 
 	private void Awake()
 	{
-		for (int i = 1; i < 19; i++ )
+		for (int i = 1; i < 24; i++ )
 		{
 			weapons3[i - 1] = Resources.Load("Weapons/Weapon" + i);
 		}
-		weapons3[18] = Resources.Load("Weapons/Weapon19");
+		weapons3[23] = Resources.Load("Weapons/Weapon24");
 		if (PlayerPrefs.GetInt("MultyPlayer") == 1)
 		{
 			_isMultiplayer = true;
@@ -67,11 +67,11 @@ public class BonusCreator : MonoBehaviour
 
 	private void Start()
 	{
-		for (int i = 1; i < 19; i++ )
+		for (int i = 1; i < 24; i++ )
 		{
 			weapons3[i - 1] = Resources.Load("Weapons/Weapon" + i);
 		}
-		weapons3[18] = Resources.Load("Weapons/Weapon19");
+		weapons3[23] = Resources.Load("Weapons/Weapon24");
 		_bonusCreationZones = GameObject.FindGameObjectsWithTag("BonusCreationZone");
 		_zombieCreator = base.gameObject.GetComponent<ZombieCreator>();
 	}

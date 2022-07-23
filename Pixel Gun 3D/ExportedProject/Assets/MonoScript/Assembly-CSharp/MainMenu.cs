@@ -80,6 +80,8 @@ public class MainMenu : MonoBehaviour
 
 	public GUIStyle coopStyle;
 
+	public bool iswinter;
+
 	private bool showMessagFacebook;
 
 	private bool showMessagTiwtter;
@@ -394,9 +396,17 @@ public class MainMenu : MonoBehaviour
 		{
 			InitTwitter();
 		}
-		if (iOSVersion > 5f && GUI.Button(position6, string.Empty, facebookStyle))
+		if (!iswinter && GUI.Button(position6, string.Empty, facebookStyle))
 		{
-			InitFacebook();
+			//InitFacebook();
+			fon = Resources.Load("winter_fon") as Texture;
+			iswinter = true;
+		}
+		if (iswinter && GUI.Button(position6, string.Empty, facebookStyle))
+		{
+			//InitFacebook();
+			fon = Resources.Load("slender_fon") as Texture;
+			iswinter = false;
 		}
 		float left = (float)Screen.width / 2f - position6.width / 2f;
 		float width = (float)Screen.height * 0.105f;

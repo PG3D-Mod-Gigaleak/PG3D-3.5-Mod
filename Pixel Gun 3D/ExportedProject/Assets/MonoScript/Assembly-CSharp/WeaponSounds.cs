@@ -44,6 +44,8 @@ public class WeaponSounds : MonoBehaviour
 
 	public float meleeAttackTimeModifier = 0.57f;
 
+	public bool isRedstone = false;
+
 	public int MaxAmmoWithRespectToInApp
 	{
 		get

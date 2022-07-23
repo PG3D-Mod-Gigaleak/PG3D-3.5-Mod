@@ -779,6 +779,11 @@ public class NetworkStartTable : MonoBehaviour
 				position = new Vector3(19.36158f, 19.61019f, -24.24763f);
 				rotation = Quaternion.Euler(new Vector3(35.9299f, -11.80757f, -1.581451f));
 			}
+			if (PlayerPrefs.GetString("MapName").Equals("Winter"))
+			{
+				position = new Vector3(19.36158f, 19.61019f, -24.24763f);
+				rotation = Quaternion.Euler(new Vector3(35.9299f, -11.80757f, -1.581451f));
+			}
 			if (PlayerPrefs.GetString("MapName").Equals("Slender"))
 			{
 				position = new Vector3(31.82355f, 5.959687f, 37.378f);

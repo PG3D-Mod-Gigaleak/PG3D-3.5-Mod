@@ -6,12 +6,16 @@ public class WeaponsComparer : IComparer
 {
 	private static int baseLngth = "Weapon".Length;
 
-	private static string[] multiplayerWeaponsOrd = new string[16]
+	private static string[] multiplayerWeaponsOrd = new string[24]
 	{
 		"Weapon1",
 		"Weapon2",
 		"Weapon3",
+		WeaponManager.OGUziName,
 		"Weapon9",
+		"Weapon4",
+		"Weapon5",
+		"Weapon8",
 		WeaponManager.GoldenEagleWeaponName,
 		WeaponManager.GlockWN,
 		WeaponManager.CombatRifleWeaponName,
@@ -23,7 +27,11 @@ public class WeaponsComparer : IComparer
 		WeaponManager.GoldenAxeWeaponnName,
 		WeaponManager.ChainsawWN,
 		WeaponManager.ScytheWN,
-		WeaponManager.ShovelWN
+		WeaponManager.ShovelWN,
+		WeaponManager.PigHammerWeaponName,
+		WeaponManager.Sword2WeaponName,
+		"Weapon23",
+		"Weapon24"
 	};
 
 	public int Compare(object x, object y)

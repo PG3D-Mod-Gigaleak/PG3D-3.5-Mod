@@ -662,7 +662,7 @@ MonoBehaviour:
   synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  instantiationId: 0
+  instantiationId: -1
 --- !u!114 &114457321731782509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -693,7 +693,7 @@ MonoBehaviour:
   preview: {fileID: 2800000, guid: 3af97e8a7881d6847b322abda6659357, type: 3}
   inAppExtensionModifier: 10
   meleeAngle: 45
-  multiplayerDamage: 1
+  multiplayerDamage: 1.2
   meleeAttackTimeModifier: 0.57
 --- !u!114 &114973821860977792
 MonoBehaviour:

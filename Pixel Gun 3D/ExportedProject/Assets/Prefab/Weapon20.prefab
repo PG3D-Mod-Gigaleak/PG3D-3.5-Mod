@@ -360,7 +360,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 73b78651afeff0547a8313af5f6791a5, type: 2}
+  - {fileID: 2100000, guid: 91122972b021c1d4e91daaf82d553c61, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -639,13 +639,13 @@ MonoBehaviour:
   damage: 25
   speedModifier: 1.1
   animationObject: {fileID: 1187893100182558}
-  Probability: 0
+  Probability: 20
   damageRange: {x: -10, y: 10}
-  gunPosition: {x: 0, y: -1.7, z: 0}
+  gunPosition: {x: 0, y: -1.7, z: 0.13}
   preview: {fileID: 2800000, guid: 4fa61dfcade487e498f8fe10a31e9520, type: 3}
   inAppExtensionModifier: 10
   meleeAngle: 45
-  multiplayerDamage: 0.5
+  multiplayerDamage: 0.8
   meleeAttackTimeModifier: 0.57
 --- !u!114 &114229720869524159
 MonoBehaviour:

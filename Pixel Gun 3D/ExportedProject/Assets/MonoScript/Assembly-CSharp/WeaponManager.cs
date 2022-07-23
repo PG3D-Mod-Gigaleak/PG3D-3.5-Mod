@@ -14,28 +14,30 @@ public class WeaponManager : MonoBehaviour
 		public string coments;
 	}
 
-	public UnityEngine.Object[] weapons3 = new UnityEngine.Object[19];
+	public UnityEngine.Object[] weapons3 = new UnityEngine.Object[24];
 
 	public static string CrystalSwordTag = "CrystalSword";
 
 	public static string MinersWeaponTag = "MinersWeapon";
 
-	public static string[] multiplayerWeaponTags = new string[19]
+	public static string[] multiplayerWeaponTags = new string[24]
 	{
 		MultiplayerMeleeTag, _initialWeaponName, "FirstShotgun", "UziWeapon", CrystalSwordTag, MinersWeaponTag, "m16", "Eagle 1", MagicBowTag, "GoldenAxe",
-		"SPAS", "Glock", "FAMAS", "Chainsaw", "Scythe", "Shovel", "AK47", "M249MachinegunWeapon", "Colt45Weapon"
+		"SPAS", "Glock", "FAMAS", "Chainsaw", "Scythe", "Shovel", "AK47", "M249MachinegunWeapon", "Colt45Weapon", "OGUzi", "Hammer", "Sword_2", "Staff",
+		"Red_Stone"
 	};
 
 	public string myCAnim(string a){
         return Defs.CAnim(currentWeaponSounds.animationObject, a);
     }
 
-	private static string[] _initialMultiplayerWeaponTags = new string[4]
+	private static string[] _initialMultiplayerWeaponTags = new string[5]
 	{
 		multiplayerWeaponTags[0],
 		multiplayerWeaponTags[1],
 		multiplayerWeaponTags[2],
-		multiplayerWeaponTags[3]
+		multiplayerWeaponTags[3],
+		multiplayerWeaponTags[19]
 	};
 
 	public HostData hostDataServer;
@@ -69,11 +71,19 @@ public class WeaponManager : MonoBehaviour
 			return "FirstPistol";
 		}
 	}
-		public static string _uziWeaponName
+	public static string _uziWeaponName
 	{
 		get
 		{
 			return "Weapon20";
+		}
+	}
+
+	public static string Sword2WeaponName
+	{
+		get
+		{
+			return "Weapon22";
 		}
 	}
 
@@ -109,11 +119,27 @@ public class WeaponManager : MonoBehaviour
 		}
 	}
 
+	public static string OGUziName
+	{
+		get
+		{
+			return "Weapon20";
+		}
+	}
+
 	public static string GoldenEagleWeaponName
 	{
 		get
 		{
 			return "Weapon11";
+		}
+	}
+
+	public static string PigHammerWeaponName
+	{
+		get
+		{
+			return "Weapon21";
 		}
 	}
 
@@ -514,11 +540,11 @@ public class WeaponManager : MonoBehaviour
 
 	private void Start()
 	{
-		for (int i = 1; i < 19; i++ )
+		for (int i = 1; i < 24; i++ )
 		{
 			weapons3[i - 1] = Resources.Load("Weapons/Weapon" + i);
 		}
-		weapons3[18] = Resources.Load("Weapons/Weapon19");
+		weapons3[23] = Resources.Load("Weapons/Weapon24");
 		_purchaseActinos.Add(StoreKitEventListener.minerWeaponID, AddMinerWeaponToInventoryAndSaveInApp);
 		_purchaseActinos.Add(StoreKitEventListener.crystalswordID, AddSwordToInventoryAndSaveInApp);
 		_purchaseActinos.Add(StoreKitEventListener.combatrifle, AddCombatRifle);

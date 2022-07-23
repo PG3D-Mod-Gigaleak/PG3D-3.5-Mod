@@ -389,7 +389,7 @@ MonoBehaviour:
   isMelee: 1
   range: 3
   damage: 300
-  speedModifier: 1.15
+  speedModifier: 1.1
   animationObject: {fileID: 1790029129854182}
   Probability: 0
   damageRange: {x: -10, y: 10}
@@ -418,7 +418,7 @@ MonoBehaviour:
   synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
-  instantiationId: 0
+  instantiationId: -1
 --- !u!148 &148101630725797156
 NetworkView:
   m_ObjectHideFlags: 0

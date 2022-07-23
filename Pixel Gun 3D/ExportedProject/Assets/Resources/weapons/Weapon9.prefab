@@ -358,7 +358,7 @@ MonoBehaviour:
   isMelee: 1
   range: 3
   damage: 50
-  speedModifier: 1.15
+  speedModifier: 1.4
   animationObject: {fileID: 1869530138815438}
   Probability: 0
   damageRange: {x: -15, y: 15}

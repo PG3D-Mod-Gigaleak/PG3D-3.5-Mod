@@ -1,0 +1,813 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Reload_0
+  serializedVersion: 6
+  m_Legacy: 1
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.018096076, y: 0.4424853, z: -0.010653632}
+        inSlope: {x: -1.3100349, y: 7.688782, z: -3.6815634}
+        outSlope: {x: -1.3100349, y: 7.688782, z: -3.6815634}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361653, y: 0.4557823, z: -0.017020535}
+        inSlope: {x: -0.0009257659, y: 0.0054310737, z: -0.0026024338}
+        outSlope: {x: -0.0009257659, y: 0.0054310737, z: -0.0026024338}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane004
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.026612, y: 0.43715554, z: -0.013160396}
+        inSlope: {x: 3.6143005, y: 10.770593, z: -2.2323306}
+        outSlope: {x: 3.6143005, y: 10.770593, z: -2.2323306}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361423, y: 0.45578223, z: -0.017020993}
+        inSlope: {x: 0.002553059, y: 0.0076145623, z: -0.0015775015}
+        outSlope: {x: 0.002553059, y: 0.0076145623, z: -0.0015775015}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane005
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.009248087, y: 0.467344, z: -0.016897937}
+        inSlope: {x: -6.4262123, y: -6.685636, z: -0.07100135}
+        outSlope: {x: -6.4262123, y: -6.685636, z: -0.07100135}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361595, y: 0.45578185, z: -0.017020727}
+        inSlope: {x: -0.00454268, y: -0.004722294, z: -0.000050253915}
+        outSlope: {x: -0.00454268, y: -0.004722294, z: -0.000050253915}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane006
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.027126055, y: 0.45660824, z: -0.026530746}
+        inSlope: {x: 3.9115343, y: -0.4778096, z: 5.499005}
+        outSlope: {x: 3.9115343, y: -0.4778096, z: 5.499005}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361442, y: 0.45578194, z: -0.017020764}
+        inSlope: {x: 0.0027630487, y: -0.0003341186, z: 0.0038820016}
+        outSlope: {x: 0.0027630487, y: -0.0003341186, z: 0.0038820016}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane007
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.029784467, y: 0.4457899, z: -0.013931012}
+        inSlope: {x: 5.4486537, y: 5.7776413, z: -1.7865574}
+        outSlope: {x: 5.4486537, y: 5.7776413, z: -1.7865574}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361556, y: 0.4557818, z: -0.017020687}
+        inSlope: {x: 0.003850404, y: 0.0040801717, z: -0.0012621385}
+        outSlope: {x: 0.003850404, y: 0.0040801717, z: -0.0012621385}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane008
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.028032493, y: 0.43897605, z: -0.02163349}
+        inSlope: {x: 4.4357114, y: 9.717736, z: 2.6670845}
+        outSlope: {x: 4.4357114, y: 9.717736, z: 2.6670845}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361366, y: 0.45578194, z: -0.01702103}
+        inSlope: {x: 0.0031343317, y: 0.006865297, z: 0.0018845195}
+        outSlope: {x: 0.0031343317, y: 0.006865297, z: 0.0018845195}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane009
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.01963582, y: 0.44721264, z: -0.02243593}
+        inSlope: {x: -0.4196134, y: 4.95519, z: 3.1311266}
+        outSlope: {x: -0.4196134, y: 4.95519, z: 3.1311266}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.0203615, y: 0.45578215, z: -0.017020954}
+        inSlope: {x: -0.000296265, y: 0.0035010178, z: 0.0022132883}
+        outSlope: {x: -0.000296265, y: 0.0035010178, z: 0.0022132883}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane010
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.027596867, y: 0.46738753, z: -0.016123578}
+        inSlope: {x: 4.183827, y: -6.711023, z: -0.51880676}
+        outSlope: {x: 4.183827, y: -6.711023, z: -0.51880676}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361347, y: 0.45578146, z: -0.017020803}
+        inSlope: {x: 0.0029578283, y: -0.0047437567, z: -0.0003664653}
+        outSlope: {x: 0.0029578283, y: -0.0047437567, z: -0.0003664653}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane011
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.010307811, y: 0.4474211, z: -0.00511426}
+        inSlope: {x: -5.813338, y: 4.83443, z: -6.8847313}
+        outSlope: {x: -5.813338, y: 4.83443, z: -6.8847313}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361405, y: 0.4557818, z: -0.017020727}
+        inSlope: {x: -0.0041058953, y: 0.0034160446, z: -0.004864482}
+        outSlope: {x: -0.0041058953, y: 0.0034160446, z: -0.004864482}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane012
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.026345886, y: 0.46509913, z: -0.0029591396}
+        inSlope: {x: 3.460272, y: -5.3874435, z: -8.131003}
+        outSlope: {x: 3.460272, y: -5.3874435, z: -8.131003}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.02036169, y: 0.4557821, z: -0.017020917}
+        inSlope: {x: 0.0024422181, y: -0.0037995114, z: -0.0057478272}
+        outSlope: {x: 0.0024422181, y: -0.0037995114, z: -0.0057478272}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane013
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.03005911, y: 0.4582553, z: -0.0036443854}
+        inSlope: {x: 5.6074414, y: -1.4302696, z: -7.7347956}
+        outSlope: {x: 5.6074414, y: -1.4302696, z: -7.7347956}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361595, y: 0.4557818, z: -0.017020954}
+        inSlope: {x: 0.0039600786, y: -0.001007861, z: -0.0054649073}
+        outSlope: {x: 0.0039600786, y: -0.001007861, z: -0.0054649073}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane014
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.021717004, y: 0.47156608, z: -0.0022354731}
+        inSlope: {x: 0.7839479, y: -9.126728, z: -8.549495}
+        outSlope: {x: 0.7839479, y: -9.126728, z: -8.549495}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.0203615, y: 0.4557823, z: -0.017020993}
+        inSlope: {x: 0.00055648474, y: -0.0064536324, z: -0.0060458207}
+        outSlope: {x: 0.00055648474, y: -0.0064536324, z: -0.0060458207}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane015
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0061771423, y: 0.44808072, z: -0.010412468}
+        inSlope: {x: -8.201755, y: 4.4532833, z: -3.8212538}
+        outSlope: {x: -8.201755, y: 4.4532833, z: -3.8212538}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.02036127, y: 0.45578223, z: -0.017020954}
+        inSlope: {x: -0.005794513, y: 0.003145981, z: -0.0027015836}
+        outSlope: {x: -0.005794513, y: 0.003145981, z: -0.0027015836}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane016
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.016752863, y: 0.4683603, z: -0.018300101}
+        inSlope: {x: -2.0867493, y: -7.272986, z: 0.7401877}
+        outSlope: {x: -2.0867493, y: -7.272986, z: 0.7401877}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.02036169, y: 0.45578238, z: -0.017020803}
+        inSlope: {x: -0.0014741466, y: -0.0051401905, z: 0.0005304241}
+        outSlope: {x: -0.0014741466, y: -0.0051401905, z: 0.0005304241}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane017
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.015136382, y: 0.46403137, z: -0.018781452}
+        inSlope: {x: -3.0213993, y: -4.769765, z: 1.0180598}
+        outSlope: {x: -3.0213993, y: -4.769765, z: 1.0180598}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361595, y: 0.45578253, z: -0.017021183}
+        inSlope: {x: -0.0021345664, y: -0.0033660391, z: 0.0007236235}
+        outSlope: {x: -0.0021345664, y: -0.0033660391, z: 0.0007236235}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane018
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.034237403, y: 0.47217467, z: -0.016740356}
+        inSlope: {x: 8.023422, y: -9.478677, z: -0.16203159}
+        outSlope: {x: 8.023422, y: -9.478677, z: -0.16203159}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.02036169, y: 0.45578223, z: -0.017020574}
+        inSlope: {x: 0.0056655398, y: -0.00669624, z: -0.00011448276}
+        outSlope: {x: 0.0056655398, y: -0.00669624, z: -0.00011448276}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane019
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.021845378, y: 0.45569354, z: -0.012340765}
+        inSlope: {x: 0.85812193, y: 0.051500697, z: -2.7061374}
+        outSlope: {x: 0.85812193, y: 0.051500697, z: -2.7061374}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.0203615, y: 0.455782, z: -0.017020764}
+        inSlope: {x: 0.0006080272, y: 0.000042323445, z: -0.0019115993}
+        outSlope: {x: 0.0006080272, y: 0.000042323445, z: -0.0019115993}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane020
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.009248087, y: 0.467344, z: -0.016897937}
+        inSlope: {x: -6.4262123, y: -6.685636, z: -0.07100135}
+        outSlope: {x: -6.4262123, y: -6.685636, z: -0.07100135}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361595, y: 0.45578185, z: -0.017020727}
+        inSlope: {x: -0.00454268, y: -0.004722294, z: -0.000050253915}
+        outSlope: {x: -0.00454268, y: -0.004722294, z: -0.000050253915}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane021
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.029591925, y: 0.45553488, z: -0.0123600345}
+        inSlope: {x: 5.337301, y: 0.14315902, z: -2.6949496}
+        outSlope: {x: 5.337301, y: 0.14315902, z: -2.6949496}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361595, y: 0.45578185, z: -0.017020687}
+        inSlope: {x: 0.0037690243, y: 0.000111611575, z: -0.0019052594}
+        outSlope: {x: 0.0037690243, y: 0.000111611575, z: -0.0019052594}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane022
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.011989071, y: 0.4594918, z: -0.012100326}
+        inSlope: {x: -4.841282, y: -2.1448069, z: -2.8449905}
+        outSlope: {x: -4.841282, y: -2.1448069, z: -2.8449905}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.0033330917
+        value: {x: -0.020361595, y: 0.45578253, z: -0.017020458}
+        inSlope: {x: -0.0034218053, y: -0.0015228816, z: -0.0020114183}
+        outSlope: {x: -0.0034218053, y: -0.0015228816, z: -0.0020114183}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane023
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane004
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane005
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane006
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane007
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane008
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane009
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane010
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane011
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane012
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane013
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane014
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane015
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane016
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane017
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane018
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane019
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane020
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane021
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane022
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.0445672, y: 1.0445669, z: 1.0445675}
+        inSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        outSlope: {x: 34.40653, y: 34.406525, z: 34.406536}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.003333211
+        value: {x: 1.1548002, y: 1.1547997, z: 1.1548004}
+        inSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        outSlope: {x: 31.568714, y: 31.568705, z: 31.568722}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Group001/FPS_PLAYER_Arm_Right/Posoh/Plane023
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 1
+  m_Bounds:
+    m_Center: {x: 0.2147162, y: 1.759438, z: 0.48853058}
+    m_Extent: {x: 0.033320606, y: 0.036057353, z: 0.031031549}
+  m_ClipBindingConstant:
+    genericBindings: []
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

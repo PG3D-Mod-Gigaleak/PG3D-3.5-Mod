@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/mah stuff/jabos (d)/funni gamez/decomp projects/pg 3.5/builds/android/test.apk
+D:/mah stuff/jabos (d)/funni gamez/decomp projects/pg 3.5/builds/android/test7.apk
 SceneListBegin?
 Assets/Scene/Scenes/AppCenter.unity
 Assets/Scene/ConnectScene.unity
@@ -30,6 +30,11 @@ Assets/Scene/Sourсe/Scenes/Slender.unity
 Assets/Scene/Sourсe/Scenes/Training.unity
 Assets/Scene/Sourсe/Scenes/Castle/Castle.unity
 Assets/Scene/Sourсe/Scenes/Utopia.unity
+Assets/export/39/scene/Assault.unity
+Assets/export/21/scenes/Level3_city.unity
+Assets/export/21/scenes/Level2_maze.unity
+Assets/export/25/scene/Level3_city25.unity
+Assets/export/36/scene/Winter.unity
 SceneListEnd?
 f2f9756e8d19e06dbc0001ec8054648d Assembly-CSharp.dll:.ObjectLabel
 c65a68ce55591da4bb70d9490207c810 Assembly-CSharp.dll:.ViborChastiTela

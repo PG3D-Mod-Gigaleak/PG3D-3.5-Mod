@@ -103,6 +103,8 @@ GameObject:
   - component: {fileID: 4553550249553599}
   - component: {fileID: 114363172566915498}
   - component: {fileID: 114613767785937089}
+  - component: {fileID: 148336758244059300}
+  - component: {fileID: 114241986754024394}
   m_Layer: 0
   m_Name: Weapon5
   m_TagString: M249MachinegunWeapon
@@ -468,6 +470,18 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &114241986754024394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1671644828171338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9852475991bd24b4b884884513a6f49d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gunFlashObj: {fileID: 1816785138376195}
 --- !u!114 &114363172566915498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,3 +534,15 @@ MonoBehaviour:
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
   instantiationId: 0
+--- !u!148 &148336758244059300
+NetworkView:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1671644828171338}
+  m_Enabled: 1
+  m_StateSynchronization: 1
+  m_Observed: {fileID: 4553550249553599}
+  m_ViewID:
+    m_ID: 0
+    m_Type: 0

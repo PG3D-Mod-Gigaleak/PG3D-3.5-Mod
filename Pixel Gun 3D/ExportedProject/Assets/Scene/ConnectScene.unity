@@ -2415,6 +2415,7 @@ MonoBehaviour:
   - {fileID: 2800000, guid: ab4f7962df3c47343a622bd1e57ca3bd, type: 3}
   - {fileID: 2800000, guid: 58e9a45b9c487e848b6291ac08efff10, type: 3}
   - {fileID: 2800000, guid: 17069a3ac5afe6547b34acee5990eb34, type: 3}
+  - {fileID: 2800000, guid: fe92fa5848dae2b41baad0a7b7eb3fc5, type: 3}
   masLoading:
   - {fileID: 2800000, guid: 2b4544501847f4f44924b4f8f0773848, type: 3}
   - {fileID: 2800000, guid: 701fec6247f22b64cb5a2facfbeedb3a, type: 3}
@@ -2431,6 +2432,7 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 947f89a4f59f17f4bb12875a6ec2f7b5, type: 3}
   - {fileID: 2800000, guid: a02d3cd18590b5742bf4380f5d6cfadf, type: 3}
   - {fileID: 2800000, guid: f11d54bd90cffb643adecf812c09f379, type: 3}
+  - {fileID: 2800000, guid: 29d6a12c6e812a94599f2a2e37be0870, type: 3}
   masMapName:
   - Sky_islands
   - Gluk
@@ -2447,6 +2449,7 @@ MonoBehaviour:
   - Level3_city
   - Level2_maze
   - Level3_city25
+  - Winter
   - Farm
   - Utopia
   masMapCOOP:

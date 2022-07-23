@@ -59,6 +59,10 @@ TagManager:
   - OGUzi
   - MultyPlayerCreateZoneCOOP
   - MenuMusic
+  - Hammer
+  - Sword_2
+  - Staff
+  - changeme
   layers:
   - Default
   - TransparentFX

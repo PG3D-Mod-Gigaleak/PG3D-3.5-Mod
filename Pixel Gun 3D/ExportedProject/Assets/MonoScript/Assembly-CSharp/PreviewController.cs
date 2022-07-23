@@ -126,7 +126,7 @@ public class PreviewController : MonoBehaviour
 			}
 			Texture2D texture2D = (Texture2D)txt;
 			texture2D.filterMode = FilterMode.Point;
-			SetTextureRecursivelyFrom(item.gameObject, texture2D);
+		//	SetTextureRecursivelyFrom(item.gameObject, texture2D);
 		}
 	}
 
@@ -173,7 +173,7 @@ public class PreviewController : MonoBehaviour
 		updateSpisok();
 		if (CurrentTextureIndex >= 0 && arrNameSkin.Count > 0)
 		{
-			SetTextureRecursivelyFrom(base.gameObject, SkinsManager.TextureForName((string)arrNameSkin[CurrentTextureIndex]));
+	//		SetTextureRecursivelyFrom(base.gameObject, SkinsManager.TextureForName((string)arrNameSkin[CurrentTextureIndex]));
 		}
 		HOTween.Init(true, true, true);
 		HOTween.EnableOverwriteManager();
@@ -258,7 +258,7 @@ public class PreviewController : MonoBehaviour
 	private void SetTextureWithIndex(GameObject tmpMan, int ind)
 	{
 		Texture txt = SkinsManager.TextureForName((string)arrNameSkin[ind]);
-		SetTextureRecursivelyFrom(tmpMan, txt);
+	//	SetTextureRecursivelyFrom(tmpMan, txt);
 	}
 
 	private void Update()

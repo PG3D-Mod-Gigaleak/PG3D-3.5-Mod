@@ -101,3 +101,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/export/25/scene/Level3_city25.unity
     guid: 2cea37c0f700f394cb4cdce2001e466d
+  - enabled: 1
+    path: Assets/export/36/scene/Winter.unity
+    guid: 64071ac000a78c74cb3ad7430e7cde5f
