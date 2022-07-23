@@ -297,6 +297,8 @@ public class Player_move_c : MonoBehaviour
 
 	private bool inAppOpenedFromPause;
 
+	public Texture skinswaptest;
+
 	public Texture restoreWindowTexture;
 
 	public GUIStyle restoreWindButStyle;
@@ -765,6 +767,8 @@ public class Player_move_c : MonoBehaviour
 			}
 		}
 	}
+
+
 
 	[RPC]
 	public void setParentWeaponPhoton(int idWeapon, int idParent, string _ip, string nameSkin, string _nickName)
@@ -1799,6 +1803,10 @@ public class Player_move_c : MonoBehaviour
 			if (Input.GetMouseButton(0))
 			{
 				ShotPressed();
+			}
+			if (Input.GetKeyDown("m"))
+			{
+				_skin = skinswaptest;
 			}
 			        if (Input.GetKeyDown(KeyCode.Alpha2))
         {

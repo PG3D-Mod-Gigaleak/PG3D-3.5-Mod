@@ -2390,11 +2390,12 @@ MonoBehaviour:
   theEnd: 0
   nickPobeditel: 
   hitTexture: {fileID: 2800000, guid: 659a500e70f0c5e49959d320e6d9da9a, type: 3}
-  _skin: {fileID: 2800000, guid: b891197525aa8cf44a08ff781f36d512, type: 3}
+  _skin: {fileID: 0}
   showNoInetTimer: 2
   countKills: 0
   maxCountKills: 0
   _curHealth: 0
+  skinswaptest: {fileID: 2800000, guid: 7147b9e3d2ed2164fb447b1886530580, type: 3}
   restoreWindowTexture: {fileID: 2800000, guid: 88aea1ce01d5f864dab0d6be7fa4479a,
     type: 3}
   restoreWindButStyle:

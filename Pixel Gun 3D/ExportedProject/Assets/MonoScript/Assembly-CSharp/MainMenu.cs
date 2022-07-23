@@ -160,6 +160,7 @@ public class MainMenu : MonoBehaviour
 
 	private void Start()
 	{
+		PhotonNetwork.PhotonServerSettings.UseCloud("a2d8764b-7e5d-40d3-9f10-7fc682e3ca2e", 0);
 		InitFacebookEvents();
 		keychainPlugin.createKCValue(0, Defs.EarnedCoins);
 		keychainPlugin.updateKCValue(0, Defs.EarnedCoins);
