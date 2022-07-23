@@ -706,7 +706,7 @@ MonoBehaviour:
   preview: {fileID: 2800000, guid: e56760fccdd33ae4f9152d4e2452f6e8, type: 3}
   inAppExtensionModifier: 10
   meleeAngle: 45
-  multiplayerDamage: 1
+  multiplayerDamage: 0.4
   meleeAttackTimeModifier: 0.57
   isRedstone: 1
 --- !u!148 &148273319751002586

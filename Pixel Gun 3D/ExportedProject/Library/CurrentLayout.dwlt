@@ -369,9 +369,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c8080000
+    m_SelectedIDs: 96440000
     m_LastClickedID: 0
-    m_ExpandedIDs: a2fbffff00000000
+    m_ExpandedIDs: 0651ffffa2fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -499,7 +499,7 @@ MonoBehaviour:
     height: 250
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: SPISOK
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -510,19 +510,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Resources/weapons
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Resources/weapons
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\mah stuff\jabos (d)\funni gamez\decomp projects\pg 3.5\github\the-3.5\Pixel
     Gun 3D\ExportedProject
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
+    scrollPos: {x: 0, y: 903}
+    m_SelectedIDs: a43f0000
+    m_LastClickedID: 16292
     m_ExpandedIDs: 000000001a2a0000322a0000ea2b0000322f0000823500002a3800007a3800003a3b0000043c00008a3f0000084100005e450000dc5200009a560000285800003a5b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 9e6e0000b4440000d86e0000e4290000c23600006c2e0000e8290000fc37000022470000e8470000ac470000dc3e0000e03e00006a350000043f0000bc7c00002a7b00009a60000074020000cc060000b00700006c78d7ffe606000034cfe0ffa0060200a68f020082f90000984701007c060000240700007c0a0000ea80000058680000ce3900001c500000ee330000eadf0300fa340000e448000028350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
